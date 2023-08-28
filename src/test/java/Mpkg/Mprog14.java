@@ -3,13 +3,13 @@ package Mpkg;
 import org.testng.annotations.Test;
 
 public class Mprog14 {
-	@Test
-	private void tc1(groups=("sanity")) {
+	@Test(groups=("sanity"))
+	private void tc1() {
 		// TODO Auto-generated method stub
 		System.out.println("tc1");
 
 	}
-	@Test(groups=("regression"))
+	@Test(groups=("regression")) 
 	private void tc2() {
 		// TODO Auto-generated method stub
 		System.out.println("tc2");
